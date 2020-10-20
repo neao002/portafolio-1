@@ -23,7 +23,7 @@ body {
 
   width: 100%;
   height: 100vh;
-  background-image: url(/images/foto9.JPG);
+  background-image: url(./images/foto9.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,6 +146,27 @@ h1 {
 .aboutme1 {
 
   font-family: $footer_font;
+  font-size: 1.6rem;
+  
+
+  h4 {
+
+    font-size: 2rem;
+    font-family: $head_font;
+    color: purple;
+  }
+
+  h6 {
+
+    font-size: 1.9rem;
+    
+  }
+
+
+
+  
+
+
 }
 
 
