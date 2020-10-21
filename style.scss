@@ -80,6 +80,30 @@ body {
     transition: 0.5s;
     opacity: 0.6;
   }
+
+  @media screen and (max-width: 375px) {
+
+    h1 {
+
+        font-size: 2.2rem;
+        color: white;
+        margin-bottom: 10px;
+        padding-bottom: 100px;
+    }
+
+    a {
+
+      display:none;
+    }
+
+    button {
+
+    background: yellow;
+      
+    }
+
+
+  
 }
 
 //  FIRST CARDS
@@ -168,6 +192,10 @@ h1 {
    
 }
 
+
+
+
+
 .aboutme1 {
 
   font-family: $footer_font;
@@ -187,6 +215,7 @@ h1 {
     font-size: 1.9rem;
     
   }
+
 
 
 
@@ -242,12 +271,6 @@ h1 {
 
 
 
-.col-md-4:nth-child(even) {
-  // background: blue;
-}
-.col-md-4:nth-child(odd) {
-  // background: red;
-}
 
 a {
   color: $link-light-grey;
@@ -347,14 +370,3 @@ footer .quick-links {
   color: white;
   padding: 2rem 0;
 }
-
-
-
-
-
-
-
-
-
-
-
