@@ -81,11 +81,12 @@ body {
     opacity: 0.6;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 450px) {
 
     h1 {
 
-        font-size: 2.2rem;
+        font-size: 1.8rem;
+        
         color: white;
         margin-bottom: 10px;
         padding-bottom: 100px;
@@ -99,8 +100,11 @@ body {
     button {
 
     background: yellow;
+    
+    
       
     }
+  }
 
 
   
@@ -141,6 +145,7 @@ h2 {
 // carroulsel start here
 
 .carousel-item {
+
   width: 100%;
 
   h3 {
@@ -156,6 +161,7 @@ h2 {
 }
 
 h1 {
+
   font-family: $body_font;
 }
 
@@ -173,18 +179,14 @@ h1 {
   
   
 
-    width: 100%;
-    height: 40vh;
-
-    
+    width: 250px;
+    height: 250px;
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     left: 37%;
     border-radius: 20%;
-    
-  
     margin: 15px !important;
     font-family: $head_font;
   
@@ -370,3 +372,4 @@ footer .quick-links {
   color: white;
   padding: 2rem 0;
 }
+
